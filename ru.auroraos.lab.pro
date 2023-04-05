@@ -50,6 +50,7 @@ HEADERS += \
 DISTFILES += \
     qml/pages/animSquares.qml \
     qml/pages/calculator.qml \
+    qml/pages/lab3.qml \
     qml/pages/squares.qml \
     rpm/ru.auroraos.lab.spec \
     AUTHORS.md \

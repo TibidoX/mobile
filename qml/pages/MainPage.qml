@@ -79,5 +79,14 @@ Page {
                     backgroundColor: "white"
                     color: "black"
                 }
+
+
+                Button {
+                    text: qsTr("Лаба 3")
+                    onClicked: pageStack.push(Qt.resolvedUrl("lab3.qml"))
+                    backgroundColor: "white"
+                    color: "black"
+                }
+
     }
 }

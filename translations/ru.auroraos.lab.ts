@@ -26,6 +26,11 @@
         <source>Калькулятор</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="85"/>
+        <source>Лаба 3</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>calculator</name>
@@ -33,6 +38,39 @@
         <location filename="../qml/pages/calculator.qml" line="24"/>
         <source></source>
         <translation></translation>
+    </message>
+</context>
+<context>
+    <name>lab3</name>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="37"/>
+        <source>Введи в меня число</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="39"/>
+        <source>Подсказка</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="46"/>
+        <source>Кнопка</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="70"/>
+        <source>Нажата </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="70"/>
+        <source> раз</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="77"/>
+        <source>Выбрать дату</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
