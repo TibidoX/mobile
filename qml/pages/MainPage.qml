@@ -41,7 +41,6 @@ import Sailfish.Silica 1.0
 Page {
     objectName: "mainPage"
     allowedOrientations: Orientation.All
-
 //    PageHeader {
 //        objectName: "pageHeader"
 //        title: qsTr("Template")
@@ -60,33 +59,124 @@ Page {
 
                 id: btnLayout
                 Button {
-                    text: qsTr("Статические квадраты")
-                    onClicked: pageStack.push(Qt.resolvedUrl("squares.qml"))
+                    text: qsTr("Простой список")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_1.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Анимированные квадраты")
-                    onClicked: pageStack.push(Qt.resolvedUrl("animSquares.qml"))
+                    text: qsTr("Динамический список")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_2.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Калькулятор")
-                    onClicked: pageStack.push(Qt.resolvedUrl("calculator.qml"))
+                    text: qsTr("Простой список (js)")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_3.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
-
 
                 Button {
-                    text: qsTr("Лаба 3")
-                    onClicked: pageStack.push(Qt.resolvedUrl("lab3.qml"))
+                    text: qsTr("Курсы валют")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_4.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
+                Button {
+                    text: qsTr("Курсы валют (XMLHttpRequest)")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_5.qml"))
+                    backgroundColor: "white"
+                    color: "black"
+                }
+
+                Button {
+                    text: qsTr("База данных")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_6.qml"))
+                    backgroundColor: "white"
+                    color: "black"
+                }
+
+                Button {
+                    text: qsTr("ConfigurationValue")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_7.qml"))
+                    backgroundColor: "white"
+                    color: "black"
+                }
+
+                Button {
+                    text: qsTr("ConfigurationGroup")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_8.qml"))
+                    backgroundColor: "white"
+                    color: "black"
+                }
+
+//                Button {
+//                    text: qsTr("Стек")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p1.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Прикрепленная страница")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p2.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Ввод текста")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p3.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+
+
+//                Button {
+//                    text: qsTr("Выбор даты и времени")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p4_5.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Список")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p6.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Сайт")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p7.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Слайды")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p8.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Вытягиваемое меню")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p9.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Контекстное меню")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("p10.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
     }
 }

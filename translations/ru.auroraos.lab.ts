@@ -12,23 +12,43 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="63"/>
-        <source>Статические квадраты</source>
+        <location filename="../qml/pages/MainPage.qml" line="69"/>
+        <source>List rect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="70"/>
-        <source>Анимированные квадраты</source>
+        <location filename="../qml/pages/MainPage.qml" line="83"/>
+        <source>simple_xml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="77"/>
-        <source>Калькулятор</source>
+        <location filename="../qml/pages/MainPage.qml" line="76"/>
+        <source>js_model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="85"/>
-        <source>Лаба 3</source>
+        <location filename="../qml/pages/MainPage.qml" line="62"/>
+        <source>List rect1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="90"/>
+        <source>xml_req</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="97"/>
+        <source>db</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="104"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <source>Settings_group</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -41,43 +61,43 @@
     </message>
 </context>
 <context>
-    <name>lab3</name>
+    <name>l6_2</name>
     <message>
-        <location filename="../qml/pages/lab3.qml" line="37"/>
-        <source>Введи в меня число</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/lab3.qml" line="39"/>
-        <source>Подсказка</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/lab3.qml" line="46"/>
-        <source>Кнопка</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/lab3.qml" line="70"/>
-        <source>Нажата </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/lab3.qml" line="70"/>
-        <source> раз</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/lab3.qml" line="77"/>
-        <source>Выбрать дату</source>
+        <location filename="../qml/pages/l6_2.qml" line="33"/>
+        <source>Это кнопка!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>squares</name>
+    <name>lab3</name>
     <message>
-        <location filename="../qml/pages/squares.qml" line="41"/>
-        <source>Квадрат</source>
+        <location filename="../qml/pages/lab3.qml" line="38"/>
+        <source>Введи в меня число</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="40"/>
+        <source>Подсказка</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="47"/>
+        <source>Кнопка</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="71"/>
+        <source>Нажата </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="71"/>
+        <source> раз</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/lab3.qml" line="78"/>
+        <source>Выбрать дату</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -48,10 +48,31 @@ SOURCES += \
 HEADERS += \
 
 DISTFILES += \
-    qml/pages/animSquares.qml \
-    qml/pages/calculator.qml \
+    ../../lab/qml/pages/lab5.qml \
+    qml/pages/Cb.qml \
+    qml/pages/DAO.qml \
+    qml/pages/Myrect.qml \
+    qml/pages/l6_1.qml \
+    qml/pages/l6_2.qml \
+    qml/pages/l6_3.qml \
+    qml/pages/l6_4.qml \
+    qml/pages/l6_5.qml \
+    qml/pages/l6_6.qml \
+    qml/pages/l6_7.qml \
+    qml/pages/l6_8.qml \
     qml/pages/lab3.qml \
-    qml/pages/squares.qml \
+    qml/pages/lab5.qml \
+    qml/pages/p1.qml \
+    qml/pages/p10.qml \
+    qml/pages/p2.qml \
+    qml/pages/p3.qml \
+    qml/pages/p4_5.qml \
+    qml/pages/p6.qml \
+    qml/pages/p7.qml \
+    qml/pages/p8.qml \
+    qml/pages/p9.qml \
+    qml/pages/script.js \
+    qml/t6.qml \
     rpm/ru.auroraos.lab.spec \
     AUTHORS.md \
     CODE_OF_CONDUCT.md \
