@@ -17,6 +17,7 @@ Page {
 
             XmlRole { name: "Name"; query: "Name/string()" }
             XmlRole { name: "Value"; query: "Value/string()" }
+
         }
 
         Component.onCompleted: {

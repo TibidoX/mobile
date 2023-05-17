@@ -58,58 +58,100 @@ Page {
     ButtonLayout {
 
                 id: btnLayout
+//                Button {
+//                    text: qsTr("Простой список")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_1.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Динамический список")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_2.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Простой список (js)")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_3.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Курсы валют")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_4.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Курсы валют (XMLHttpRequest)")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_5.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("База данных")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_6.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("ConfigurationValue")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_7.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("ConfigurationGroup")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_8.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
                 Button {
-                    text: qsTr("Простой список")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_1.qml"))
+                    text: qsTr("Светофор")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l7_4.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Динамический список")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_2.qml"))
+                    text: qsTr("Строка")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l7_3.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Простой список (js)")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_3.qml"))
+                    text: qsTr("Ljjjjjjjjjjjjg")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l6_dop.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Курсы валют")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_4.qml"))
+                    text: qsTr("Компонент")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l7_5.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Курсы валют (XMLHttpRequest)")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_5.qml"))
+                    text: qsTr("Секундомер")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l7_6.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("База данных")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_6.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("ConfigurationValue")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_7.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("ConfigurationGroup")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_8.qml"))
+                    text: qsTr("Pagestack")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l7_7.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }

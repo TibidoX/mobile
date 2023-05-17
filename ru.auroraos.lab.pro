@@ -51,7 +51,14 @@ DISTFILES += \
     ../../lab/qml/pages/lab5.qml \
     qml/pages/Cb.qml \
     qml/pages/DAO.qml \
+    qml/pages/Help_page.qml \
+    qml/pages/Myh.qml \
+    qml/pages/Mymin.qml \
     qml/pages/Myrect.qml \
+    qml/pages/Mysec.qml \
+    qml/pages/Mysign.qml \
+    qml/pages/Ps.qml \
+    qml/pages/Textcomponent.qml \
     qml/pages/l6_1.qml \
     qml/pages/l6_2.qml \
     qml/pages/l6_3.qml \
@@ -60,8 +67,15 @@ DISTFILES += \
     qml/pages/l6_6.qml \
     qml/pages/l6_7.qml \
     qml/pages/l6_8.qml \
+    qml/pages/l6_dop.qml \
+    qml/pages/l7_1-2.qml \
+    qml/pages/l7_3.qml \
+    qml/pages/l7_4.qml \
+    qml/pages/l7_5.qml \
+    qml/pages/l7_6.qml \
+    qml/pages/l7_7.qml \
     qml/pages/lab3.qml \
-    qml/pages/lab5.qml \
+    qml/pages/lab5_for_otchet.qml \
     qml/pages/p1.qml \
     qml/pages/p10.qml \
     qml/pages/p2.qml \
@@ -87,3 +101,6 @@ CONFIG += auroraapp_i18n
 TRANSLATIONS += \
     translations/ru.auroraos.lab.ts \
     translations/ru.auroraos.lab-ru.ts \
+
+RESOURCES += \
+    img.qrc

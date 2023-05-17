@@ -12,43 +12,33 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="69"/>
-        <source>List rect</source>
+        <location filename="../qml/pages/MainPage.qml" line="118"/>
+        <source>Светофор</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="83"/>
-        <source>simple_xml</source>
+        <location filename="../qml/pages/MainPage.qml" line="125"/>
+        <source>Строка</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="76"/>
-        <source>js_model</source>
+        <location filename="../qml/pages/MainPage.qml" line="132"/>
+        <source>Ljjjjjjjjjjjjg</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="62"/>
-        <source>List rect1</source>
+        <location filename="../qml/pages/MainPage.qml" line="139"/>
+        <source>Компонент</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="90"/>
-        <source>xml_req</source>
+        <location filename="../qml/pages/MainPage.qml" line="146"/>
+        <source>Секундомер</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="97"/>
-        <source>db</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="104"/>
-        <source>Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
-        <source>Settings_group</source>
+        <location filename="../qml/pages/MainPage.qml" line="153"/>
+        <source>Pagestack</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
