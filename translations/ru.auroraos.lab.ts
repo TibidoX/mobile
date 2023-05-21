@@ -12,33 +12,13 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="118"/>
-        <source>Светофор</source>
+        <location filename="../qml/pages/MainPage.qml" line="160"/>
+        <source>Счётчик</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="125"/>
-        <source>Строка</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="132"/>
-        <source>Ljjjjjjjjjjjjg</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="139"/>
-        <source>Компонент</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="146"/>
-        <source>Секундомер</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="153"/>
-        <source>Pagestack</source>
+        <location filename="../qml/pages/MainPage.qml" line="167"/>
+        <source>Список строк</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

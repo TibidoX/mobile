@@ -114,44 +114,58 @@ Page {
 //                    color: "black"
 //                }
 
+//                Button {
+//                    text: qsTr("Светофор")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l7_4.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Строка")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l7_3.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Доп валюты")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l6_dop.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Компонент")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l7_5.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Секундомер")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l7_6.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
+//                Button {
+//                    text: qsTr("Pagestack")
+//                    onClicked: pageStack.push(Qt.resolvedUrl("l7_7.qml"))
+//                    backgroundColor: "white"
+//                    color: "black"
+//                }
+
                 Button {
-                    text: qsTr("Светофор")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l7_4.qml"))
+                    text: qsTr("Счётчик")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l8_3-4.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }
 
                 Button {
-                    text: qsTr("Строка")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l7_3.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("Ljjjjjjjjjjjjg")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l6_dop.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("Компонент")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l7_5.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("Секундомер")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l7_6.qml"))
-                    backgroundColor: "white"
-                    color: "black"
-                }
-
-                Button {
-                    text: qsTr("Pagestack")
-                    onClicked: pageStack.push(Qt.resolvedUrl("l7_7.qml"))
+                    text: qsTr("Список строк")
+                    onClicked: pageStack.push(Qt.resolvedUrl("l8_6-7.qml"))
                     backgroundColor: "white"
                     color: "black"
                 }

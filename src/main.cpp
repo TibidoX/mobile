@@ -37,6 +37,13 @@
 
 #include <auroraapp.h>
 #include <QtQuick>
+#include <QGuiApplication>
+//#include <sailfishapp.h>
+#include <cassert>
+#include <iostream>
+
+#include "counter.h"
+#include "tstringlist.h"
 
 int main(int argc, char *argv[])
 {
@@ -48,5 +55,25 @@ int main(int argc, char *argv[])
     view->setSource(Aurora::Application::pathTo(QStringLiteral("qml/lab.qml")));
     view->show();
 
+    const QMetaObject* staticObject = &Counter::staticMetaObject;
+    QObject* object = staticObject->newInstance();
+    int value = -1;
+    assert(QMetaObject::invokeMethod(object, "get", Q_RETURN_ARG(int, value)));
+    qDebug() << "Init value = " << value;
+
+    assert(QMetaObject::invokeMethod(object, "inc"));
+    assert(QMetaObject::invokeMethod(object, "get", Q_RETURN_ARG(int, value)));
+    qDebug() << "increment = " << value;
+
+    assert(QMetaObject::invokeMethod(object, "reset"));
+    assert(QMetaObject::invokeMethod(object, "get", Q_RETURN_ARG(int, value)));
+    qDebug() << "reset = " << value;
+
+    assert(QMetaObject::invokeMethod(object, "set", Q_ARG(int, 777)));
+    assert(QMetaObject::invokeMethod(object, "get", Q_RETURN_ARG(int, value)));
+    qDebug() << "set = " << value;
+
+    qmlRegisterType<Counter>("harbour.ru.auroraos.lab.Counter", 0, 1, "Counter");
+    qmlRegisterType<TStringList>("harbour.ru.auroraos.lab.TStringList", 0, 1, "TStringList");
     return application->exec();
 }

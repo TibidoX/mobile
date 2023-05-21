@@ -43,9 +43,13 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
+    src/counter.cpp \
     src/main.cpp \
+    src/tstringlist.cpp
 
 HEADERS += \
+    src/counter.h \
+    src/tstringlist.h
 
 DISTFILES += \
     ../../lab/qml/pages/lab5.qml \
@@ -74,6 +78,8 @@ DISTFILES += \
     qml/pages/l7_5.qml \
     qml/pages/l7_6.qml \
     qml/pages/l7_7.qml \
+    qml/pages/l8_3-4.qml \
+    qml/pages/l8_6-7.qml \
     qml/pages/lab3.qml \
     qml/pages/lab5_for_otchet.qml \
     qml/pages/p1.qml \

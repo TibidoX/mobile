@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import Sailfish.Silica 1.0
+import QtGraphicalEffects 1.0
 
 Page {
     Mysec {
@@ -16,6 +17,7 @@ Page {
         id:hours
         x:150
     }
+
     Timer {
         id: timer
         interval: 1000; repeat: true
@@ -32,7 +34,16 @@ Page {
         }
     }
 
+    ProgressCircleBase{
+        anchors.horizontalCenter: btn.horizontalCenter
+        y: 50
+        width: parent.width/2
+        height: parent.height/2
+        progressValue: 1/60*sec.value
+    }
+
     Button {
+        id: btn
         anchors.centerIn: parent
         text: "Старт"
         onClicked: {
